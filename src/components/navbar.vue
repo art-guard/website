@@ -6,6 +6,7 @@
         <div class="navbarComp">
             Guard Your art
         </div>
+        <div></div>
     </div>
 </template>
 
