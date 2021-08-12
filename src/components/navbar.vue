@@ -1,29 +1,34 @@
 <template>
-    <div class="navbar">
-        <div class="navbarComp"> 
+    <div class="Navbar">
+        <div class="NavbarComp"> 
             <b> Login </b> 
         </div>
-        <div class="navbarComp">
-            Guard Your art
+        <div class="NavbarComp">
+            Guard Your Art
         </div>
         <div></div>
     </div>
 </template>
 
 <script>
+    import Vue from "vue";
+
+    export default Vue.extend({
+    name: "Navbar",
+    });
 </script>
 
 <style scoped>
     body{
         background-color: #1f2e35;
     }
-    .navbar{
+    .Navbar{
     display: flex;
     flex-direction: row-reverse;
     text-align: right;
     color: #40df9f;
     }
-    .navbarComp{
+    .NavbarComp{
         margin-left: 1%;
         margin-right: 1%;
     }
