@@ -29,6 +29,7 @@
     color: #40df9f;
     }
     .NavbarComp{
+        text-transform: uppercase;
         margin-left: 1%;
         margin-right: 1%;
     }
