@@ -1,9 +1,9 @@
 <template>
-    <div class="Navbar">
-        <div class="NavbarComp"> 
+    <div class="navbar">
+        <div class="navbarComp"> 
             <b> Login </b> 
         </div>
-        <div class="NavbarComp">
+        <div class="navbarComp">
             Guard Your Art
         </div>
         <div></div>
@@ -14,7 +14,7 @@
     import Vue from "vue";
 
     export default Vue.extend({
-    name: "Navbar",
+    name: "navbar",
     });
 </script>
 
@@ -22,13 +22,13 @@
     body{
         background-color: #1f2e35;
     }
-    .Navbar{
+    .navbar{
     display: flex;
     flex-direction: row-reverse;
     text-align: right;
     color: #40df9f;
     }
-    .NavbarComp{
+    .navbarComp{
         text-transform: uppercase;
         margin-left: 1%;
         margin-right: 1%;
