@@ -4,12 +4,18 @@
             <b> Login </b> 
         </div>
         <div class="navbarComp">
-            Guard Your art
+            Guard Your Art
         </div>
+        <div></div>
     </div>
 </template>
 
 <script>
+    import Vue from "vue";
+
+    export default Vue.extend({
+    name: "navbar",
+    });
 </script>
 
 <style scoped>
@@ -23,6 +29,7 @@
     color: #40df9f;
     }
     .navbarComp{
+        text-transform: uppercase;
         margin-left: 1%;
         margin-right: 1%;
     }
