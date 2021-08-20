@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Art Guard</h1>
+    <img id="homeBanner" src="@/assets/homeBanner.png">
     <VerifyArt />
   </div>
 </template>
@@ -16,3 +16,13 @@
     },
   });
 </script>
+
+<style>
+  body{
+        background-color: #1f2e35;
+    }
+  #homeBanner{
+      width: 25%;
+      margin-bottom: 2%;
+  }
+</style>
