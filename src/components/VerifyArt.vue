@@ -3,7 +3,7 @@
     <br>
     <div class="search">
       <input id="searchField" v-model="url" placeholder="Enter Artwork URL" type="text" />
-      <button id="searchButton" v-on:click="submit">Find Artist</button>
+      <button id="searchButton" v-on:click="submit">FIND ARTIST</button>
     </div>
     <br>
     <div class="upload">
@@ -51,8 +51,9 @@
     }
     .search{
       position: relative;
-      width: 20%;
-      margin-left: 40%;
+      width: 26%;
+      margin-left: 37%;
+      margin-bottom: 2%;
     }
     #searchField{
       float: left;
