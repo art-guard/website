@@ -58,7 +58,7 @@
     #searchField{
       float: left;
       box-sizing: border-box;
-      padding-right: 100px;
+      padding-right: 130px;
       width: 100%;
       border-radius: 5px;
       height: 25px;
@@ -70,7 +70,7 @@
       position:absolute;
       top:0;
       right:0;
-      width: 100px;
+      width: 130px;
       background-color: #40df9f;
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
